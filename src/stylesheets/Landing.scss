@@ -1,0 +1,115 @@
+@import './Variables.scss';
+@import './Mixins.scss';
+@import './Reset.scss';
+
+// .header__wrapper {
+//   width: 100%;
+//   margin: auto;
+//   max-width: 1200px;
+// }
+.header__menu {
+  width: 44px;
+  height: 44px;
+  background-color: $blue;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  transition: width heigth background-color ease 0.8s;
+  &:hover {
+    background-color: $primary-color;
+    width: 50px;
+    height: 50px;
+  }
+  .menu-icon {
+    width: 100%;
+  }
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('../images/landing-picture.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 53px;
+  &__title {
+    text-align: center;
+    color: $light-color;
+    padding-bottom: 45px;
+    max-width: 1280px;
+    &__h1 {
+      font-size: 2.625rem;
+      font-family: $font-titles;
+      text-transform: uppercase;
+      line-height: 3.4375rem;
+    }
+  }
+}
+.scroll-down {
+  background-color: $light-color;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    animation: scroll 1s infinite;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translate (0, 0);
+  }
+
+  to {
+    transform: translate(0, 50%);
+  }
+}
+
+@include tablet {
+  .hero {
+    max-height: 768px;
+    padding-bottom: 45px;
+    &__title {
+      padding-bottom: 30px;
+      &__h1 {
+        font-size: 5rem;
+        line-height: 6.625rem;
+        span {
+          display: block;
+        }
+      }
+      &__p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .hero {
+    padding-bottom: 13px;
+
+    &__title {
+      &__h1 {
+        font-size: 6.25rem;
+        line-height: 8.25rem;
+        margin: 0;
+      }
+      &__p {
+        margin: 0;
+      }
+    }
+  }
+}
