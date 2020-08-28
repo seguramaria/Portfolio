@@ -1,0 +1,156 @@
+@import './Variables.scss';
+@import './Mixins.scss';
+@import './Reset.scss';
+.page__footer {
+  background-color: $blue;
+}
+
+.footer {
+  min-height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  &__wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 320px;
+  }
+}
+
+.arrow {
+  position: absolute;
+  top: -25px;
+  background-color: $light-color;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22.5px;
+  box-shadow: 0 2px 4px 0 $shadows;
+  border: 4px solid $light-color;
+  transition: border-color ease 0.8s;
+  animation: arrow 1s 5;
+  transform: translate(0, 0);
+
+  &:hover {
+    width: 50px;
+    height: 50px;
+    border-color: $secondary-color;
+  }
+}
+
+@keyframes arrow {
+  from {
+    transform: translate (0, 0);
+  }
+
+  to {
+    transform: translate(0, -50%);
+  }
+}
+
+.list {
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  li {
+    transition: color font-size ease 0.8s;
+    &:hover {
+      color: $primary-color;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.copy {
+  font-size: 0.875rem;
+  text-transform: lowercase;
+  line-height: 1.875rem;
+  width: 100%;
+  h5 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  .heart {
+    color: $primary-color;
+    animation: heartbeat 0.9s infinite;
+  }
+}
+
+@include tablet {
+  .footer {
+    min-height: 240px;
+    padding: 45px 39px;
+    &__wrapper {
+      max-width: 768px;
+    }
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  .list {
+    margin: 0;
+    &__1 {
+      width: 210px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    &__2 {
+      width: 210px;
+      margin-left: 15px;
+    }
+  }
+
+  .copy {
+    margin-right: 15px;
+    width: 210px;
+    .heart {
+      animation: heartbeat 0.9s infinite;
+    }
+    .components {
+      color: orange;
+    }
+  }
+
+  @keyframes heartbeat {
+    from {
+      font-size: 0.5rem;
+    }
+    to {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@include desktop {
+  .footer {
+    padding: 45px 39px;
+    &__wrapper {
+      max-width: 1280px;
+    }
+    &__menu {
+      justify-content: center;
+    }
+  }
+
+  .list {
+    &__1 {
+      width: 161px;
+    }
+    &__2 {
+      width: 159px;
+    }
+  }
+  .copy {
+    width: 159px;
+  }
+}

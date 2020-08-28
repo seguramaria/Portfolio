@@ -4,7 +4,11 @@ import React from 'react';
 import '../stylesheets/App.scss';
 import Header from './Header';
 import Landing from './Landing';
-
+import AboutMe from './AboutMe';
+import Skills from './Skills';
+import Projects from './Projects';
+import Footer from './Footer';
+import Contact from './Contact';
 function App() {
   return (
     <div className="App">
@@ -16,7 +20,11 @@ function App() {
         <Route exact path="/App"> */}
       <Header />
       <Landing />
-
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
       <main className="main"></main>
       {/* </Route> */}
 

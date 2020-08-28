@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-
+import MenuIcon from '../images/ico-menu.svg';
+import ScrollDown from '../images/ico-scroll-down.svg';
 import '../stylesheets/Landing.scss';
 
 const Landing = () => {
@@ -13,11 +14,7 @@ const Landing = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            class="menu-icon"
-            src="./assets/images/ico-menu.svg"
-            alt="Menu icon"
-          />
+          <img class="menu-icon" src={MenuIcon} alt="Menu icon" />
         </a>
       </div>
       <div class="hero">
@@ -34,7 +31,7 @@ const Landing = () => {
             title="Ir al artículo Reasons to purchase"
           >
             <img
-              src="./assets/images/ico-scroll-down.svg"
+              src={ScrollDown}
               alt="Icono para deslizar al artículo Reasons to purchase"
             />
           </a>
