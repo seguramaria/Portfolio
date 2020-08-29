@@ -6,14 +6,23 @@ const AboutMe = () => {
     <article class="article-1">
       <div class="tip__wrapper">
         <div class="tip">
-          <span class="tip__headline">Insomnia tips</span>
+          <span class="tip__headline">Reinventándome</span>
           <h2 class="tip__title">
-            <span>Looking through a </span>
-            <span>window</span>
+            <span>Conoce mi </span>
+            <span>historia</span>
           </h2>
           <p class="tip__text">
-            Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
-            at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+            Como educadora social siempre utilizaba la tecnología como
+            herramienta para la transformación social. Durante los últimos años,
+            me he dedicado a enseñar nuevas tecnologías a personas en riesgo de
+            exclusión. Fue buscando información para mi alumnado cuando conocí
+            el mundo de la programación.
+          </p>
+          <p class="tip__text">
+            En mi trabajo como orientadora laboral recomendé a muchas personas
+            con grandes aptitudes que se formaran para ser programadores/as. Un
+            día decidí que tocaba aplicarme mis propios consejos y por ello me
+            animé a reinventarme.
           </p>
           <div class="go-button">
             <a
@@ -22,7 +31,7 @@ const AboutMe = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Go
+              Skills
             </a>
           </div>
         </div>

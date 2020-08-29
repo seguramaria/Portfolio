@@ -3,7 +3,7 @@ import React from 'react';
 import MenuIcon from '../images/ico-menu.svg';
 import ScrollDown from '../images/ico-scroll-down.svg';
 import '../stylesheets/Landing.scss';
-
+import MySelfIcon from '../images/Iconos/2.png';
 const Landing = () => {
   return (
     <section class="page__header" id="home">
@@ -19,11 +19,18 @@ const Landing = () => {
       </div>
       <div class="hero">
         <div class="hero__title">
+          <div class="hero__title__img">
+            <img
+              src={MySelfIcon}
+              class="hero__title__img-icon"
+              alt="Dibujo Mujer con portátil"
+            ></img>
+          </div>
           <h1 class="hero__title__h1">
-            <span>Anonymous</span>
-            <span>Proxy</span>
+            <span className="span">María </span>
+            <span> Segura</span>
           </h1>
-          <p class="hero__title__p">In hac habitasse platea dictumst.</p>
+          <p class="hero__title__p">Programadora Frontend Junior</p>
         </div>
         <div class="scroll-down">
           <a

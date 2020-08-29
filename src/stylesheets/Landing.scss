@@ -29,7 +29,8 @@
 
 .hero {
   height: 100vh;
-  background-image: url('../images/landing-picture.jpg');
+  background-color: #facfad;
+  background-image: url('../images/flowers.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,8 +38,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
   padding-bottom: 53px;
   &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     text-align: center;
     color: $light-color;
     padding-bottom: 45px;
@@ -48,6 +54,13 @@
       font-family: $font-titles;
       text-transform: uppercase;
       line-height: 3.4375rem;
+    }
+    &__img {
+      width: 200px;
+      height: 200px;
+      &-icon {
+        width: 100%;
+      }
     }
   }
 }
@@ -87,7 +100,7 @@
         font-size: 5rem;
         line-height: 6.625rem;
         span {
-          display: block;
+          display: inline-block;
         }
       }
       &__p {
