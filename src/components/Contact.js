@@ -3,7 +3,7 @@ import '../stylesheets/Contact.scss';
 
 const Contact = () => {
   return (
-    <>
+    <section className="form">
       <div class="contact">
         <h2>CONTACTO</h2>
         <p class="large-text">No dudes en contactar</p>
@@ -66,7 +66,7 @@ const Contact = () => {
           <input class="button" type="submit" value="ENVIAR" />
         </form>
       </section>
-    </>
+    </section>
   );
 };
 

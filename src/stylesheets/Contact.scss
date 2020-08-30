@@ -5,7 +5,12 @@
 .asterisk {
   color: $secondary-color;
 }
-
+.form {
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
 .contact {
   padding: 0 15px;
   font-family: $font-main;

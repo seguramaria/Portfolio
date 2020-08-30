@@ -1,0 +1,151 @@
+@import './Variables.scss';
+@import './Mixins.scss';
+@import './Reset.scss';
+
+// ARTÍCULO 2
+.skills {
+  background-color: #694640;
+  color: white;
+  padding: 30px 0 60px;
+  &__wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 320px;
+  }
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: auto;
+  }
+  &__title {
+    font-size: 1.5rem;
+
+    text-transform: capitalize;
+    font-family: 'Lane', sans-serif;
+    font-weight: normal;
+    line-height: 1.875rem;
+    margin: 20px;
+  }
+
+  &__col2,
+  &__col1 {
+    width: 250px;
+    border: 1px solid blue;
+    margin: 0;
+    h4 {
+      font-size: 1.125rem;
+      line-height: 1.875rem;
+      margin: 0;
+    }
+    p {
+      font-size: 1.125rem;
+      line-height: 1.875;
+      margin: 0;
+    }
+  }
+  &__img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    &-icon {
+      width: 100%;
+    }
+  }
+}
+
+.reason-button {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  background-color: $primary-color;
+  background-position: center;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  box-shadow: none;
+  transition: background-color box-shadow border ease 0.8s;
+  &:hover {
+    background-color: $dark-blue;
+    box-shadow: 0 2px 4px 0 $shadows;
+    border: 4px solid $secondary-color;
+  }
+
+  a {
+    font-size: 1.25rem;
+    line-height: 2.8125rem;
+    color: $light-color;
+  }
+}
+
+@include tablet {
+  .skills {
+    padding: 30px 40px 60px 35.7px;
+    margin-bottom: 80px;
+    &__wrapper {
+      max-width: 768px;
+    }
+    &__container {
+      flex-direction: row;
+    }
+    &__title {
+      font-size: 2.5rem;
+      line-height: 2.8125rem;
+    }
+    &__col1 {
+      width: 33%;
+      height: 100%;
+      text-align: right;
+      h4 {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+      }
+      p {
+        font-size: 1.25rem;
+        margin: 10px;
+      }
+    }
+    &__col2 {
+      width: 33%;
+      height: 100%;
+      text-align: left;
+      h4 {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+      }
+      p {
+        font-size: 1.25rem;
+        margin: 10px;
+      }
+    }
+    &__img {
+      width: 230px;
+    }
+  }
+}
+
+@include desktop {
+  .skills {
+    // height: 427px;
+    padding: 60px 85px 81.2px;
+    &__wrapper {
+      max-width: 1200px;
+    }
+    &__container {
+      flex-direction: row;
+    }
+    &__title {
+      font-size: 2.8rem;
+    }
+    &__col2,
+    &__col1 {
+      width: 250px;
+      height: 100%;
+    }
+    &__img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}
