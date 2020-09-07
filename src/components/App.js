@@ -1,9 +1,8 @@
 import React from 'react';
-// import React, { useState, useEffect } from 'react';
 // import { Route, Switch } from 'react-router-dom';
 import '../stylesheets/App.scss';
 import Header from './Header';
-import Landing from './Landing';
+import Home from './Home';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
@@ -18,14 +17,19 @@ function App() {
         </Route>
 
         <Route exact path="/App"> */}
-      <Header />
-      <Landing />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-      <main className="main"></main>
+      <div id="outer-container">
+        <Header pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        <main id="page-wrap">
+          <Home />
+          <AboutMe />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
+      {/* <Header /> */}
+
       {/* </Route> */}
 
       {/* <Route path="/character/:id" render={renderCharacterDetail} /> */}

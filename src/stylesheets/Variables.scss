@@ -1,8 +1,29 @@
-// Fonts
+/* Fonts*/
+
+// Family
 $font-main: 'Roboto', sans-serif;
 $font-titles: 'Roboto Slab', serif;
+// Weight
+$font-medium: 500;
 
-// colors
+// Mobile
+$big-font: 6.25rem;
+$h2-font: 1.25rem;
+$normal-font: 0.938rem;
+$small-font: 0.813rem;
+// Tablet
+$big-font-tablet: 10.5rem;
+$h2-font-tablet: 2rem;
+$normal-font-tablet: 1rem;
+$small-font-tablet: 0.875rem;
+// Desktop
+$big-font-desktop: 6.25rem;
+$h2-font-desktop: 1.25rem;
+$normal-font-desktop: 0.938rem;
+$small-font-desktop: 0.813rem;
+
+/* Colors*/
+
 $primary-color: #f26002;
 $secondary-color: #8ccbea;
 $dark-grey: #4a4a4a;
@@ -12,6 +33,36 @@ $blue: #0271bc;
 $dark-blue: #304268;
 $shadows: rgba(0, 0, 0, 0.5);
 
+/* Margin */
+$margin-1: 0.5rem;
+$margin-2: 1rem;
+$margin-3: 1.5rem;
+$margin-4: 2rem;
+
 /* BREAKPOINTS */
 $tablet: 768px;
 $desktop: 1280px;
+
+/* Class */
+.section {
+  padding: 3rem 0;
+}
+
+.section-tittle {
+  position: relative;
+  font-size: $h2-font;
+  color: $dark-grey;
+  margin: $margin-4 0;
+  text-align: center;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 32px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: $primary-color;
+  }
+}

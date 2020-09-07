@@ -2,31 +2,6 @@
 @import './Mixins.scss';
 @import './Reset.scss';
 
-// .header__wrapper {
-//   width: 100%;
-//   margin: auto;
-//   max-width: 1200px;
-// }
-.header__menu {
-  width: 44px;
-  height: 44px;
-  background-color: $blue;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  transition: width heigth background-color ease 0.8s;
-  &:hover {
-    background-color: $primary-color;
-    width: 50px;
-    height: 50px;
-  }
-  .menu-icon {
-    width: 100%;
-  }
-}
-
 .hero {
   height: 100vh;
   background-color: #facfad;
@@ -49,11 +24,14 @@
     color: $light-color;
     padding-bottom: 45px;
     max-width: 1280px;
+
+    color: white;
+    line-height: 0.8;
     &__h1 {
-      font-size: 2.625rem;
-      font-family: $font-titles;
-      text-transform: uppercase;
+      font-size: 2rem;
+
       line-height: 3.4375rem;
+      text-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
     }
     &__img {
       width: 200px;
@@ -63,6 +41,9 @@
       }
     }
   }
+}
+.span {
+  margin: 5px;
 }
 .scroll-down {
   background-color: $light-color;

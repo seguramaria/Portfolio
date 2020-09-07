@@ -4,17 +4,17 @@ import ArrowUp from '../images/ico-arrow.svg';
 
 const Footer = () => {
   return (
-    <footer class="page__footer">
-      <div class="footer__wrapper">
-        <section class="footer">
-          <div class="arrow">
+    <footer className="page__footer">
+      <div className="footer__wrapper">
+        <section className="footer">
+          <div className="arrow">
             <a href="#home" title="Volver al inicio">
               <img src={ArrowUp} alt="Icono para deslizar" />
             </a>
           </div>
-          <div class="footer__menu">
-            <nav class="list list__1">
-              <ul class="list">
+          <div className="footer__menu">
+            <nav className="list list__1">
+              <ul className="list">
                 <li>
                   <a
                     href="https://adalab.es/"
@@ -67,8 +67,8 @@ const Footer = () => {
                 </li>
               </ul>
             </nav>
-            <nav class="list list__2">
-              <ul class="list">
+            <nav className="list list__2">
+              <ul className="list">
                 <li>
                   <a
                     href="https://adalab.es/"
@@ -102,14 +102,14 @@ const Footer = () => {
               </ul>
             </nav>
 
-            <div class="copy">
+            <div className="copy">
               <h5>&copy;2017</h5>
               <div>
                 <span>We</span>
-                <span class="heart">
-                  <i class="fas fa-heart"></i>
+                <span className="heart">
+                  <i className="fas fa-heart"></i>
                 </span>
-                <span class="components"> components</span>
+                <span className="components"> components</span>
               </div>
             </div>
           </div>

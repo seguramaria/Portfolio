@@ -1,14 +1,15 @@
 import React from 'react';
+
 import '../stylesheets/Contact.scss';
 
 const Contact = () => {
   return (
     <section className="form">
-      <div class="contact">
+      <div className="contact">
         <h2>CONTACTO</h2>
-        <p class="large-text">No dudes en contactar</p>
-        <p class="small-text">
-          Todos los campos marcados con <span class="asterisk">*</span> son
+        <p className="large-text">No dudes en contactar</p>
+        <p className="small-text">
+          Todos los campos marcados con <span className="asterisk">*</span> son
           obligatorios.
         </p>
       </div>
@@ -17,10 +18,10 @@ const Contact = () => {
         <form
           action="https://formspree.io/mwkrblze"
           method="post"
-          class="contact-form"
+          className="contact-form"
         >
-          <label for="name">
-            Nombre completo <span class="asterisk">*</span>
+          <label htmlFor="name">
+            Nombre completo <span className="asterisk">*</span>
           </label>
           <input
             placeholder="Nombre..."
@@ -29,12 +30,12 @@ const Contact = () => {
             name="name"
             required
           />
-          <div class="email-tel">
-            <label class="email-label" for="email">
-              Email <span class="asterisk">*</span>
+          <div className="email-tel">
+            <label className="email-label" htmlFor="email">
+              Email <span className="asterisk">*</span>
             </label>
             <input
-              class="email-input"
+              className="email-input"
               placeholder="nombre.apellidos@mail.com"
               type="email"
               id="email"
@@ -42,11 +43,11 @@ const Contact = () => {
               required
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
-            <label class="phone-label" for="phone">
+            <label className="phone-label" htmlFor="phone">
               Teléfono
             </label>
             <input
-              class="phone-input"
+              className="phone-input"
               placeholder="Ej: 123456789"
               type="tel"
               id="phone"
@@ -54,8 +55,8 @@ const Contact = () => {
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             />
           </div>
-          <label for="comments">
-            Mensaje <span class="asterisk">*</span>
+          <label htmlFor="comments">
+            Mensaje <span className="asterisk">*</span>
           </label>
           <textarea
             placeholder="¿Qué necesitas?"
@@ -63,7 +64,8 @@ const Contact = () => {
             name="comments"
             required
           ></textarea>
-          <input class="button" type="submit" value="ENVIAR" />
+
+          <input className="button" type="submit" value="ENVIAR" />
         </form>
       </section>
     </section>

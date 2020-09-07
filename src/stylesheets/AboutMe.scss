@@ -1,8 +1,8 @@
 @import './Variables.scss';
 @import './Mixins.scss';
 @import './Reset.scss';
+@import './App.scss';
 
-// ARTÍCULO 1
 .article-1 {
   background-color: $light-color;
 }
@@ -13,7 +13,7 @@
     width: 100%;
     margin: auto;
     max-width: 320px;
-    padding: 30px 15px 45px;
+    padding: 30px 38px 45px;
   }
   &__headline {
     font-size: 0.875rem;
