@@ -8,14 +8,33 @@
 }
 
 .tip {
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
   &__wrapper {
     width: 100%;
     margin: auto;
     max-width: 320px;
     padding: 30px 38px 45px;
   }
-  &__headline {
+  &__img {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #464240;
+    box-shadow: 0 2px 4px 0 $shadows;
+    border-radius: 70%;
+    margin: 15px 25px 25px;
+    align-self: center;
+
+    &-icon {
+      width: 100%;
+      border-radius: 70%;
+      align-self: center;
+    }
+  }
+  & &__headline {
     font-size: 0.875rem;
     color: $secondary-color;
     text-transform: capitalize;
@@ -25,7 +44,6 @@
   &__title {
     font-size: 1.5rem;
     font-family: $font-titles;
-    text-transform: capitalize;
     line-height: 1.875rem;
     margin: 0;
   }
@@ -35,6 +53,7 @@
     font-size: 1.125rem;
     line-height: 1.875rem;
     margin: 15px 0 30px;
+    text-align: justify;
   }
 }
 

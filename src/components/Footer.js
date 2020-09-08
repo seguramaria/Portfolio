@@ -16,53 +16,28 @@ const Footer = () => {
             <nav className="list list__1">
               <ul className="list">
                 <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Articles
+                  <a href="#home" title="Ir a Inicio">
+                    Inicio
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Books
+                  <a href="#aboutMe" title="Ir a Sobre mí">
+                    Sobre mí
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Events
+                  <a href="#skills" title="Ir a Habilidades">
+                    Habilidades
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Reasons
+                  <a href="#projects" title="Ir a proyectos">
+                    Proyectos
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Tips
+                  <a href="#contact" title="Ir a contactar">
+                    Contacto
                   </a>
                 </li>
               </ul>
@@ -103,14 +78,11 @@ const Footer = () => {
             </nav>
 
             <div className="copy">
-              <h5>&copy;2017</h5>
-              <div>
-                <span>We</span>
-                <span className="heart">
-                  <i className="fas fa-heart"></i>
-                </span>
-                <span className="components"> components</span>
-              </div>
+              <h5>&copy;2020</h5>
+
+              <span className="heart">
+                <i className="fas fa-heart"></i>
+              </span>
             </div>
           </div>
         </section>

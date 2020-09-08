@@ -1,12 +1,19 @@
 import React from 'react';
 import '../stylesheets/AboutMe.scss';
 import Fade from 'react-reveal/Fade';
-
+import MySelfIcon from '../images/Diseño sin título.png';
 const AboutMe = () => {
   return (
     <article className="article-1">
       <div className="tip__wrapper">
-        <div className="tip">
+        <div className="tip" id="aboutMe">
+          <div className="tip__img">
+            <img
+              src={MySelfIcon}
+              className="tip__img-icon"
+              alt="Dibujo Mujer con portátil"
+            ></img>
+          </div>
           <Fade bottom cascade>
             <span className="tip__headline">Reinventándome</span>
           </Fade>

@@ -12,19 +12,39 @@ class Header extends React.Component {
     return (
       <LightSpeed top>
         <Menu right>
-          <a id="home" className="menu-item" href="/">
+          <a id="home" className="menu-item" href="#home" title="Ir a Inicio">
             Inicio
           </a>
-          <a id="about" className="menu-item" href="/about">
+          <a
+            id="about"
+            className="menu-item"
+            href="#aboutMe"
+            title="Ir a Sobre mí"
+          >
             Sobre mí
           </a>
-          <a id="contact" className="menu-item" href="/contact">
+          <a
+            id="contact"
+            className="menu-item"
+            href="#skills"
+            title="Ir a Habilidades"
+          >
             Mis habilidades
           </a>
-          <a id="contact" className="menu-item" href="/contact">
+          <a
+            id="contact"
+            className="menu-item"
+            href="#projects"
+            title="Ir a proyectos"
+          >
             Proyectos
           </a>
-          <a id="contact" className="menu-item" href="/contact">
+          <a
+            id="contact"
+            className="menu-item"
+            href="#contact"
+            title="Ir a contactar"
+          >
             Contacto
           </a>
           {/* <a onClick={this.showSettings} className="menu-item--small" href="">

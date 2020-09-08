@@ -5,16 +5,32 @@
 
 .skills {
   margin: auto;
-
+  padding: 40px;
+  background-color: $light-blue;
+  &__wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+    padding: 30px 38px 45px;
+  }
+  &__title {
+    font-size: 1.5rem;
+    color: $dark-grey;
+    font-family: $font-titles;
+    line-height: 1.875rem;
+    margin: 25px 0;
+  }
   &__container {
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   &__subtitle {
     color: $primary-color;
     margin-bottom: $margin-3;
+    margin: 25px 0;
   }
   &__name {
     display: inline-block;
@@ -32,9 +48,41 @@
   }
   &__img {
     width: 200px;
+    margin: 25px 25px;
     &-1 {
       width: 100%;
-      border-radius: 0.5rem;
+    }
+  }
+}
+
+@include tablet {
+  .skills {
+    &__box {
+      width: 50%;
+      margin: auto;
+    }
+    &__title {
+      font-size: 1.625rem;
+      line-height: 2.8125rem;
+    }
+    &__container {
+      flex-direction: row;
+    }
+    &__img {
+      width: 300px;
+      margin: auto;
+
+      &-1 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .skills {
+    &__title {
+      font-size: 2rem;
     }
   }
 }

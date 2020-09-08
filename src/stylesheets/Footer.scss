@@ -2,7 +2,7 @@
 @import './Mixins.scss';
 @import './Reset.scss';
 .page__footer {
-  background-color: $blue;
+  background-color: $yellow;
 }
 
 .footer {
@@ -12,6 +12,7 @@
   align-items: center;
   text-align: center;
   position: relative;
+  color: white;
   &__wrapper {
     width: 100%;
     margin: auto;
