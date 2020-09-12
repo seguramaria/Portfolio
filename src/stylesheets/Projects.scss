@@ -2,23 +2,68 @@
 @import './Mixins.scss';
 @import './Reset.scss';
 @import './App.scss';
-.portfolio {
-  background-color: var(--white-color);
 
+.portfolio {
+  background-color: white;
+  &__wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 1280px;
+  }
   &__container {
-    justify-items: center;
-    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 1.5rem;
+    color: $primary-color;
+    font-family: $font-titles;
+    line-height: 1.875rem;
+    margin: 25px 0;
   }
   &__img {
-    position: relative;
-    overflow: hidden;
+    width: 140px;
 
-    & img {
+    &-img {
+      width: 100%;
       border-radius: 0.5rem;
     }
 
     &:hover .portfolio__link {
       bottom: 0;
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .portfolio {
+    &__container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &__title {
+      font-size: 1.5rem;
+      color: $primary-color;
+      font-family: $font-titles;
+      line-height: 1.875rem;
+      margin: 25px 0;
+    }
+    &__img {
+      width: 250px;
+      margin: 20px;
+
+      &-img {
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+
+      &:hover .portfolio__link {
+        bottom: 0;
+      }
     }
   }
 }
