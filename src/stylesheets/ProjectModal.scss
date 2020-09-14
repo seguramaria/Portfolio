@@ -1,0 +1,171 @@
+@import './Variables.scss';
+@import './Mixins.scss';
+@import './Reset.scss';
+@import './App.scss';
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeec;
+  &__dialog {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: solid 3px #ccc;
+    background-color: #fff;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $yellow;
+  }
+  &__close {
+    margin-left: 2rem;
+  }
+  &__description {
+    text-align: justify;
+    color: $dark-grey;
+  }
+  &__image {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    color: $secondary-color;
+    &-responsive {
+      width: 100px;
+    }
+    &-content {
+      width: 100%;
+    }
+  }
+  &__links {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+
+    &-content {
+      color: $dark-grey;
+      font-size: $small-font;
+      i {
+        color: $secondary-color;
+        font-size: 1rem;
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .modal {
+    &__content {
+      padding: 50px;
+    }
+    &__header {
+      display: flex;
+      justify-content: space-between;
+
+      font-size: 1.2rem;
+    }
+    &__close {
+      margin-left: 2rem;
+
+      font-size: 2rem;
+      &:hover {
+        color: $dark-grey;
+      }
+    }
+    &__description {
+      text-align: justify;
+      color: $dark-grey;
+      font-size: 1.2rem;
+    }
+    &__subtitle {
+      font-size: 1.2rem;
+      color: $secondary-color;
+    }
+    &__image {
+      width: 600px;
+
+      flex-wrap: unset;
+
+      &-responsive {
+        width: 200px;
+      }
+    }
+    &__links {
+      margin: auto;
+      display: flex;
+
+      justify-content: space-around;
+
+      &-content {
+        color: $dark-grey;
+        font-size: 1rem;
+        i {
+          font-size: 1.3rem;
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+
+  .desktop {
+    margin-right: 25px;
+  }
+}
+
+@include desktop {
+  .modal {
+    &__content {
+      padding: 60px;
+      max-width: 1000px;
+    }
+    &__header {
+      font-size: 1.5rem;
+    }
+    &__close {
+      margin-left: 2rem;
+      font-size: 2rem;
+    }
+    &__description {
+      font-size: 1.3rem;
+    }
+
+    &__image {
+      width: 800px;
+
+      &-responsive {
+        width: 300px;
+      }
+    }
+    &__links {
+      justify-content: space-evenly;
+
+      &-content {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .desktop {
+    margin-right: 25px;
+  }
+}

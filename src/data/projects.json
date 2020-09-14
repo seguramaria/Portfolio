@@ -4,29 +4,46 @@
     "name": "Buscador de personajes de Rick y Morty",
     "image": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/1.png",
     "github": "https://github.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria",
-    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-final-seguramaria/#/"
+    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-final-seguramaria/#/",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/4.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/5.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/6.png",
+    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   },
   {
     "id": 2,
     "name": "Sherlock TV",
     "image": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/2.png",
     "github": "https://github.com/seguramaria/TV-Shows-seguramaria",
-    "githubpages": "http://beta.adalab.es/modulo-2-evaluacion-final-seguramaria/"
+    "githubpages": "http://beta.adalab.es/modulo-2-evaluacion-final-seguramaria/",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/16.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/17.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/18.png",
+    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   },
   {
     "id": 3,
     "name": "Codebusters",
     "image": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/3.png",
     "github": "https://github.com/seguramaria/codebusters",
-    "githubpages": "http://beta.adalab.es/project-promo-j-module-1-team-2/"
+    "githubpages": "http://beta.adalab.es/project-promo-j-module-1-team-2/",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/1.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/2.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/3.png",
+    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   },
   {
     "id": 4,
     "name": "Pokedex",
     "image": "https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png",
     "github": "https://github.com/seguramaria/Pokedex-seguramaria",
-    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/"
+    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/13.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/14.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/responsive/15.png",
+    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   },
+
   {
     "id": 5,
     "name": "SailorMoon Cards",
@@ -34,14 +51,19 @@
     "github": "https://github.com/seguramaria/sailormooncards",
     "githubpages": "https://beta.adalab.es/project-promo-j-module-3-team-2/#/",
     "desktop": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/10.png",
-    "tablet": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/11.png",
-    "mobile": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/12.png"
+    "tablet": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/12.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/11.png",
+    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   },
   {
     "id": 6,
     "name": "Maniac Coders Cards",
     "image": "https://raw.githubusercontent.com/seguramaria/maniaccoderscards/master/src/images/6.png",
     "github": "https://github.com/seguramaria/maniaccoderscards",
-    "githubpages": "https://beta.adalab.es/project-promo-j-module-3-team-3/index.html"
+    "githubpages": "https://beta.adalab.es/project-promo-j-module-3-team-3/index.html",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/maniaccoderscards/master/src/images/responsive/7.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/maniaccoderscards/master/src/images/responsive/8.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/maniaccoderscards/master/src/images/responsive/9.png",
+    "description": "Web app que permite crear tarjetas de presentación de forma interactiva. Desarrollada con JavaScript, HTML5, CSS3."
   }
 ]
