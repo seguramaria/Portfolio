@@ -15,13 +15,7 @@ class Project extends React.Component {
             alt={this.props.name}
           />
                              
-          <div className="portfolio__link">
-                              
-            <a href="#" className="portfolio__link-name">
-                                  View details                   
-            </a>
-                            
-          </div>
+          <span className="portfolio__link">Ver más detalles</span>
                         
         </li>
                     

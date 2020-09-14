@@ -24,20 +24,28 @@
     margin: 25px 0;
   }
   &__img {
-    width: 140px;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0;
 
     &-img {
       width: 100%;
       border-radius: 0.5rem;
     }
-
-    &:hover .portfolio__link {
-      bottom: 0;
-    }
+  }
+  &__link {
+    margin: 0;
+    padding: 0;
+    color: $dark-grey;
   }
 }
 
-@media all and (min-width: 768px) {
+@include tablet {
   .portfolio {
     &__container {
       flex-direction: row;
@@ -46,7 +54,7 @@
       flex-wrap: wrap;
     }
     &__title {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: $primary-color;
       font-family: $font-titles;
       line-height: 1.875rem;
@@ -54,6 +62,7 @@
     }
     &__img {
       width: 250px;
+      height: 260px;
       margin: 20px;
 
       &-img {
@@ -63,6 +72,26 @@
 
       &:hover .portfolio__link {
         bottom: 0;
+      }
+    }
+    &__link {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@include desktop {
+  .portfolio {
+    &__title {
+      font-size: 2rem;
+      line-height: 1.9rem;
+      margin: 30px 0;
+    }
+
+    &__link {
+      font-size: 1.2rem;
+      &:hover {
+        color: $secondary-color;
       }
     }
   }
