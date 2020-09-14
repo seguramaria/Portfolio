@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Buscador de personajes de Rick y Morty",
+    "image": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/1.png",
+    "github": "https://github.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria",
+    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-final-seguramaria/#/"
+  },
+  {
+    "id": 2,
+    "name": "Sherlock TV",
+    "image": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/2.png",
+    "github": "https://github.com/seguramaria/TV-Shows-seguramaria",
+    "githubpages": "http://beta.adalab.es/modulo-2-evaluacion-final-seguramaria/"
+  },
+  {
+    "id": 3,
+    "name": "Codebusters",
+    "image": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/3.png",
+    "github": "https://github.com/seguramaria/codebusters",
+    "githubpages": "http://beta.adalab.es/project-promo-j-module-1-team-2/"
+  },
+  {
+    "id": 4,
+    "name": "Pokedex",
+    "image": "https://raw.githubusercontent.com/seguramaria/Pokedex-seguramaria/master/src/images/4.png",
+    "github": "https://github.com/seguramaria/Pokedex-seguramaria",
+    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-seguramaria/"
+  },
+  {
+    "id": 5,
+    "name": "SailorMoon Cards",
+    "image": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/5.png",
+    "github": "https://github.com/seguramaria/sailormooncards",
+    "githubpages": "https://beta.adalab.es/project-promo-j-module-3-team-2/#/",
+    "desktop": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/10.png",
+    "tablet": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/11.png",
+    "mobile": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/12.png"
+  },
+  {
+    "id": 6,
+    "name": "Maniac Coders Cards",
+    "image": "https://raw.githubusercontent.com/seguramaria/maniaccoderscards/master/src/images/6.png",
+    "github": "https://github.com/seguramaria/maniaccoderscards",
+    "githubpages": "https://beta.adalab.es/project-promo-j-module-3-team-3/index.html"
+  }
+]
