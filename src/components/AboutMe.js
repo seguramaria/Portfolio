@@ -34,9 +34,9 @@ const AboutMe = () => {
             </p>
             <p className="tip__text">
               En mi trabajo como orientadora laboral recomendé a muchas personas
-              con grandes aptitudes que se formaran para ser programadores/as.
-              Un día decidí que tocaba aplicarme mis propios consejos y por ello
-              me animé a reinventarme.
+              que se formaran para ser programadores/as. Un día decidí que
+              tocaba aplicarme mis propios consejos y por ello me animé a
+              reinventarme.
             </p>
           </Fade>
           <Fade bottom>

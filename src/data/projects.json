@@ -4,7 +4,7 @@
     "name": "Buscador de personajes de Rick y Morty",
     "image": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/1.png",
     "github": "https://github.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria",
-    "githubpages": "http://beta.adalab.es/modulo-3-evaluacion-final-seguramaria/#/",
+    "githubpages": "https://beta.adalab.es/modulo-3-evaluacion-final-seguramaria/#/App",
     "desktop": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/4.png",
     "tablet": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/5.png",
     "mobile": "https://raw.githubusercontent.com/seguramaria/Buscador-de-personajes-de-Rick-y-Morty-seguramaria/master/src/images/responsive/6.png",
@@ -15,7 +15,7 @@
     "name": "Sherlock TV",
     "image": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/2.png",
     "github": "https://github.com/seguramaria/TV-Shows-seguramaria",
-    "githubpages": "http://beta.adalab.es/modulo-2-evaluacion-final-seguramaria/",
+    "githubpages": "https://seguramaria.github.io/TV-Shows-seguramaria/",
     "desktop": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/16.png",
     "tablet": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/17.png",
     "mobile": "https://raw.githubusercontent.com/seguramaria/TV-shows-seguramaria/master/src/images/responsive/18.png",
@@ -30,7 +30,7 @@
     "desktop": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/10.png",
     "tablet": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/12.png",
     "mobile": "https://raw.githubusercontent.com/seguramaria/sailormooncards/master/src/images/responsive/11.png",
-    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
+    "description": "Refactorización de un código heredado. Web app que permite crear tarjetas de presentación de forma interactiva. Uso de Sass para estilos, ES6 y React para la estructuración de la App."
   },
   {
     "id": 6,
@@ -64,6 +64,6 @@
     "desktop": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/1.png",
     "tablet": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/2.png",
     "mobile": "https://raw.githubusercontent.com/seguramaria/codebusters/master/src/images/responsive/3.png",
-    "description": "Web grupal responsive para presentar al equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
+    "description": "Web grupal responsive para presentar a nuestro equipo. Creada con HTML5, CSS3, Flexbox, Grid, SASS y Git para el control de versiones."
   }
 ]
