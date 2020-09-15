@@ -1,7 +1,9 @@
 import React from 'react';
 import '../stylesheets/AboutMe.scss';
 import Fade from 'react-reveal/Fade';
-import MySelfIcon from '../images/Diseño sin título.png';
+
+import BeforeIcon from '../images/Before.png';
+
 const AboutMe = () => {
   return (
     <article className="article-1">
@@ -9,7 +11,7 @@ const AboutMe = () => {
         <div className="tip" id="aboutMe">
           <div className="tip__img">
             <img
-              src={MySelfIcon}
+              src={BeforeIcon}
               className="tip__img-icon"
               alt="Dibujo Mujer con portátil"
             ></img>

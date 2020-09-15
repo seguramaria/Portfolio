@@ -8,24 +8,24 @@
 .form {
   text-align: left;
   background-color: #9b6258;
-  color: lightblue;
+  color: $dark-grey;
   padding: 25px;
 
   &__wrapper {
     width: 100%;
-    max-width: 1200px;
+    max-width: 340px;
     margin: auto;
   }
 }
 .contact {
   padding: 0 15px;
   font-family: $font-main;
-  color: $light-color;
+
   text-align: left;
 
   h2 {
     font-family: $font-titles;
-    color: #cba570;
+    color: #f1af94;
     line-height: 45px;
     text-align: center;
     margin-top: 30px;
@@ -56,11 +56,11 @@
 }
 
 ::placeholder {
-  color: $yellow;
+  color: #9c9895;
   font-size: 0.875rem;
 }
 
-input {
+.input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -68,11 +68,16 @@ input {
   height: 45px;
   margin: 7px 0px;
   padding-inline-start: 15px;
-  border: 1px solid $yellow;
+  border: 2px solid #794b42;
+  border-radius: 6px;
+  &:hover {
+    border: 2px solid $secondary-color;
+  }
 }
 
 label {
   font-size: 0.875rem;
+  color: $light-color;
 }
 
 textarea {
@@ -81,26 +86,36 @@ textarea {
   padding-top: 11px;
   margin: 7px 0px;
   padding-inline-start: 15px;
-  border: 1px solid $yellow;
+  border: 2px solid #794b42;
+  border-radius: 6px;
+  &:hover {
+    border: 2px solid $secondary-color;
+  }
 }
 
 .button {
-  background-color: #b6b787;
+  background-color: #d89a81;
   color: $light-color;
   font-weight: 600px;
   padding: 12px 0;
-  border-radius: 4px;
+  border-radius: 25px;
+  border-color: #794b42;
   margin-top: 30px;
   margin-bottom: 60px;
+  box-shadow: 0 2px 4px 0 $shadows;
   cursor: pointer;
+  &:hover {
+    background-color: $light-blue;
+    color: $light-color;
+  }
+  :focus {
+    outline: 0;
+  }
 }
 
 @media all and (min-width: 768px) {
-  .contact {
-    padding: 0 163px;
-  }
-  .contact-form {
-    padding: 0 163px;
+  .form__wrapper {
+    max-width: 768px;
   }
   .button {
     width: 206px;
@@ -109,11 +124,9 @@ textarea {
 }
 
 @media all and (min-width: 1200px) {
-  .contact {
-    padding: 0 300px;
-  }
-  .contact-form {
-    padding: 0 300px;
+  .form__wrapper {
+    max-width: 1200px;
+    padding: 40px 100px;
   }
   .email-tel {
     display: grid;

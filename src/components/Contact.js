@@ -20,6 +20,7 @@ const Contact = () => {
               Nombre completo <span className="asterisk">*</span>
             </label>
             <input
+              className="input"
               placeholder="Nombre..."
               type="text"
               id="name"
@@ -27,11 +28,11 @@ const Contact = () => {
               required
             />
             <div className="email-tel">
-              <label className="email-label" htmlFor="email">
+              <label className="email-label " htmlFor="email">
                 Email <span className="asterisk">*</span>
               </label>
               <input
-                className="email-input"
+                className="email-input input"
                 placeholder="nombre.apellidos@mail.com"
                 type="email"
                 id="email"
@@ -43,18 +44,19 @@ const Contact = () => {
                 Teléfono
               </label>
               <input
-                className="phone-input"
+                className="phone-input input"
                 placeholder="Ej: 123456789"
                 type="tel"
                 id="phone"
                 name="phone"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
               />
             </div>
             <label htmlFor="comments">
               Mensaje <span className="asterisk">*</span>
             </label>
             <textarea
+              className="input"
               placeholder="¿Qué necesitas?"
               id="comments"
               name="comments"

@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-before-after-slider": "^1.0.4",
     "react-burger-menu": "^2.7.1",
     "react-dom": "^16.13.1",
     "react-particle-effect-button": "^1.0.1",
