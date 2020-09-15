@@ -16,9 +16,7 @@ class Project extends React.Component {
               src={this.props.image}
               alt={this.props.name}
             />
-                               
-            <span className="portfolio__link">Ver más detalles</span>
-                          
+                                              
           </li>
                 {' '}
         </Flip>

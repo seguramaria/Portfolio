@@ -94,7 +94,7 @@ textarea {
   font-weight: 600px;
   padding: 12px 0;
   border-radius: 25px;
-  border-color: #794b42;
+  border: 1px solid #d89a81;
   margin-top: 30px;
   margin-bottom: 60px;
   box-shadow: 0 2px 4px 0 $shadows;
@@ -102,6 +102,7 @@ textarea {
   &:hover {
     background-color: $light-blue;
     color: $light-color;
+    border: 1px solid $light-color;
   }
   :focus {
     outline: 0;
