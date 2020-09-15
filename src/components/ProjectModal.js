@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/ProjectModal.scss';
-
+import Flip from 'react-reveal/Flip';
 const ProjectModal = (props) => {
   return (
     <div className="modal">
@@ -18,32 +18,33 @@ const ProjectModal = (props) => {
               {props.project.description}
             </p>
           </section>
+          <Flip bottom>
+            <section className="modal__image">
+              <div className="modal__image-responsive desktop">
+                <img
+                  className="modal__image-content"
+                  src={props.project.desktop}
+                  alt={props.project.name}
+                />
+              </div>
 
-          <section className="modal__image">
-            <div className="modal__image-responsive desktop">
-              <img
-                className="modal__image-content"
-                src={props.project.desktop}
-                alt={props.project.name}
-              />
-            </div>
+              <div className="modal__image-responsive">
+                <img
+                  className="modal__image-content"
+                  src={props.project.tablet}
+                  alt={props.project.name}
+                />
+              </div>
 
-            <div className="modal__image-responsive">
-              <img
-                className="modal__image-content"
-                src={props.project.tablet}
-                alt={props.project.name}
-              />
-            </div>
-
-            <div className="modal__image-responsive">
-              <img
-                className="modal__image-content"
-                src={props.project.mobile}
-                alt={props.project.name}
-              />
-            </div>
-          </section>
+              <div className="modal__image-responsive">
+                <img
+                  className="modal__image-content"
+                  src={props.project.mobile}
+                  alt={props.project.name}
+                />
+              </div>
+            </section>
+          </Flip>
           <section className="modal__links">
             <a
               className="modal__links-content"

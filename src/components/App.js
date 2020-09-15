@@ -32,6 +32,7 @@ class App extends React.Component {
       return <PageNotFound />;
     }
   }
+
   render() {
     return (
       <>

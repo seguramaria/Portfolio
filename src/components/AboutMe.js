@@ -41,18 +41,6 @@ const AboutMe = () => {
               reinventarme.
             </p>
           </Fade>
-          <Fade bottom>
-            <button className="go-button">
-              <a
-                href="https://adalab.es/"
-                title="Ir a Adalab"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Skills
-              </a>
-            </button>
-          </Fade>
         </div>
       </div>
     </article>

@@ -24,7 +24,7 @@ class Header extends React.Component {
             Sobre mí
           </a>
           <a
-            id="contact"
+            id="skills"
             className="menu-item"
             href="#skills"
             title="Ir a Habilidades"
@@ -32,7 +32,7 @@ class Header extends React.Component {
             Mis habilidades
           </a>
           <a
-            id="contact"
+            id="projects"
             className="menu-item"
             href="#projects"
             title="Ir a proyectos"
@@ -42,14 +42,45 @@ class Header extends React.Component {
           <a
             id="contact"
             className="menu-item"
-            href="#contact"
+            href="#contactform"
             title="Ir a contactar"
           >
             Contacto
           </a>
-          {/* <a onClick={this.showSettings} className="menu-item--small" href="">
-          Settings
-        </a> */}
+          <a
+            href="https://twitter.com/MariaesSegura"
+            title="Ir al perfil de Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/seguramaria/"
+            title="Ir al perfil de linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/seguramaria"
+            title="Ir al perfil de Github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="mailto:msegber@gmail.com"
+            title="Enviar email"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
         </Menu>
       </LightSpeed>
     );
