@@ -47,20 +47,23 @@
 }
 .scroll-down {
   background-color: $light-color;
+
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-  img {
-    width: 100%;
+  .fa-angle-down {
+    color: #be796d;
+
     animation: scroll 1s;
+    font-size: 2rem;
     transition: transform ease 0.8s;
     &:hover {
-      transform: translate(0, 50%);
+      transform: translate(0, 25%);
     }
   }
 }

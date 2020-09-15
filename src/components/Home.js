@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import ScrollDown from '../images/ico-scroll-down.svg';
+
 import '../stylesheets/Home.scss';
 import MySelfIcon from '../images/Iconos/6.png';
 import Flip from 'react-reveal/Flip';
@@ -34,10 +34,7 @@ const Home = () => {
             href="#reasons-to-purchase"
             title="Ir al artículo Reasons to purchase"
           >
-            <img
-              src={ScrollDown}
-              alt="Icono para deslizar al artículo Reasons to purchase"
-            />
+            <i class="fas fa-angle-down"></i>
           </a>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../stylesheets/Footer.scss';
-import ArrowUp from '../images/ico-arrow.svg';
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <section className="footer">
           <div className="arrow">
             <a href="#home" title="Volver al inicio">
-              <img src={ArrowUp} alt="Icono para deslizar" />
+              <i class="fas fa-angle-up"></i>
             </a>
           </div>
           <div className="footer__menu">
@@ -38,40 +37,6 @@ const Footer = () => {
                 <li>
                   <a href="#contact" title="Ir a contactar">
                     Contacto
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <nav className="list list__2">
-              <ul className="list">
-                <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Twitter
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://adalab.es/"
-                    title="Ir a Adalab"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Mastodon.social
                   </a>
                 </li>
               </ul>

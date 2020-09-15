@@ -6,9 +6,7 @@ const Contact = () => {
   return (
     <section className="form">
       <div className="form__wrapper" id="contact">
-        <div className="contact">
-          <h2>CONTACTO</h2>
-        </div>
+        <h2 className="h2">CONTACTO</h2>
 
         <section>
           <form
@@ -65,6 +63,50 @@ const Contact = () => {
 
             <input className="button" type="submit" value="ENVIAR" />
           </form>
+          <section className="socialmedia">
+            <ul className="socialmedia__list">
+              <li className="socialmedia__list-li">
+                <a
+                  href="https://twitter.com/MariaesSegura"
+                  title="Ir al perfil de Twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li className="socialmedia__list-li">
+                <a
+                  href="https://www.linkedin.com/in/seguramaria/"
+                  title="Ir al perfil de linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li className="socialmedia__list-li">
+                <a
+                  href="https://github.com/seguramaria"
+                  title="Ir al perfil de Github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li className="socialmedia__list-li">
+                <a
+                  href="mailto:msegber@gmail.com"
+                  title="Enviar email"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </section>
         </section>
       </div>
     </section>
