@@ -42,19 +42,19 @@ class App extends React.Component {
               pageWrapId={'page-wrap'}
               outerContainerId={'outer-container'}
             />
-            <main id="page-wrap">
-              <Home />
-              <AboutMe />
-              <Skills />
-
-              <ProjectsList projects={this.state.projects} />
-              <Switch>
-                <Route path="/project/:id" render={this.renderProjectModal} />
-              </Switch>
-              <Contact />
-              <Footer />
-            </main>
           </div>
+          <main id="page-wrap">
+            <Home />
+            <AboutMe />
+            <Skills />
+
+            <ProjectsList projects={this.state.projects} />
+            <Switch>
+              <Route path="/project/:id" render={this.renderProjectModal} />
+            </Switch>
+            <Contact />
+            <Footer />
+          </main>
         </div>
       </>
     );
