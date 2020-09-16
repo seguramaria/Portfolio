@@ -37,8 +37,14 @@
     &-img {
       width: 100%;
       border-radius: 0.5rem;
+      -webkit-box-shadow: 10px 10px 12px -6px rgba(79, 39, 39, 1);
+      -moz-box-shadow: 10px 10px 12px -6px rgba(79, 39, 39, 1);
+      box-shadow: 10px 10px 12px -6px rgba(79, 39, 39, 1);
       &:hover {
-        border: 4px solid $secondary-color;
+        transition: 0.5s -webkit-box-shadow -moz-box-shadow box-shadow;
+        -webkit-box-shadow: 10px 10px 9px -6px rgba(48, 43, 48, 1);
+        -moz-box-shadow: 10px 10px 9px -6px rgba(48, 43, 48, 1);
+        box-shadow: 10px 10px 9px -6px rgba(48, 43, 48, 1);
       }
     }
   }
@@ -90,12 +96,6 @@
       margin: 30px 0;
     }
 
-    &__link {
-      font-size: 1.2rem;
-      &:hover {
-        color: $secondary-color;
-      }
-    }
     &__img {
       height: 165px;
     }

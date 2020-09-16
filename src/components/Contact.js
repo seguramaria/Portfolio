@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Contact.scss';
-import Flip from 'react-reveal/Flip';
+
 import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
           <h2 className="h2">CONTACTO</h2>
         </Fade>
         <section>
-          <Flip top>
+          <Fade top>
             <form
               action="https://formspree.io/mwkrblze"
               method="post"
@@ -66,7 +66,7 @@ const Contact = () => {
 
               <input className="button" type="submit" value="ENVIAR" />
             </form>
-          </Flip>
+          </Fade>
           <section className="socialmedia">
             <Fade bottom>
               <ul className="socialmedia__list">

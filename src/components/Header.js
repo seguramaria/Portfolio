@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Header.scss';
-import MySelfIcon from '../images/Iconos/6.png';
+import MySelfIcon from '../images/3.png';
 class Header extends React.Component {
   render() {
     return (
@@ -12,20 +12,13 @@ class Header extends React.Component {
                 class="header__name-a-img"
                 src={MySelfIcon}
                 alt="Icono de la página"
-                width="60px"
-                height="50px"
               />
             </a>
           </div>
           <nav>
             <ul class="header__menu">
               <li>
-                <a
-                  id="about"
-                  className="menu-item"
-                  href="#aboutMe"
-                  title="Ir a Sobre mí"
-                >
+                <a className="menu-item" href="#aboutMe" title="Ir a Sobre mí">
                   Sobre mí
                 </a>
               </li>
