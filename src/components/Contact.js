@@ -1,11 +1,11 @@
 import React from 'react';
-
 import '../stylesheets/Contact.scss';
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
+
 const Contact = () => {
   return (
-    <section className="form" id="contactform">
+    <section className="form" id="contact">
       <div className="form__wrapper">
         <Fade top>
           <h2 className="h2">CONTACTO</h2>

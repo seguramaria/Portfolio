@@ -30,10 +30,7 @@ const Home = () => {
           </Fade>
         </div>
         <div className="scroll-down">
-          <a
-            href="#reasons-to-purchase"
-            title="Ir al artículo Reasons to purchase"
-          >
+          <a href="#aboutMe" title="Ir a la sección de információn sobre mí">
             <i class="fas fa-angle-down"></i>
           </a>
         </div>

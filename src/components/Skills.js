@@ -6,7 +6,7 @@ import Flip from 'react-reveal/Flip';
 const Skills = () => {
   return (
     <section className="skills" id="skills">
-      <div className="skills__wrapper">
+      <div className="skills__wrapper" id="skills">
         <Fade big>
           <h2 className="skills__title">Habilidades</h2>
         </Fade>
