@@ -8,7 +8,7 @@ const Footer = () => {
         <section className="footer">
           <div className="arrow">
             <a href="#home" title="Volver al inicio">
-              <i class="fas fa-angle-up"></i>
+              <i className="fas fa-angle-up"></i>
             </a>
           </div>
           <div className="footer__menu">

@@ -25,7 +25,7 @@ class App extends React.Component {
     const project = this.state.projects.find((project) => {
       return project.id === routeId;
     });
-    console.log(project);
+
     if (project.id === routeId) {
       return <ProjectModal project={project} />;
     } else {

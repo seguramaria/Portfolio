@@ -31,7 +31,7 @@ const Home = () => {
         </div>
         <div className="scroll-down">
           <a href="#aboutMe" title="Ir a la sección de információn sobre mí">
-            <i class="fas fa-angle-down"></i>
+            <i className="fas fa-angle-down"></i>
           </a>
         </div>
       </div>

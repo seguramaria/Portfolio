@@ -85,9 +85,7 @@
   }
   @include desktop {
     height: 60px;
-    &__name {
-      padding-left: 142px;
-    }
+
     &__menu a {
       padding: 15px 10px;
     }
@@ -104,7 +102,6 @@
     padding-right: 45px;
   }
   @include desktop {
-    padding-right: 138px;
     max-width: 1200px;
   }
 }

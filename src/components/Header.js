@@ -4,19 +4,19 @@ import MySelfIcon from '../images/3.png';
 class Header extends React.Component {
   render() {
     return (
-      <header class="header" id="header">
-        <div class="wrapper">
-          <div class="header__name">
-            <a class="header__name-a" href="#home" title="Ir a Inicio">
+      <header className="header" id="header">
+        <div className="wrapper">
+          <div className="header__name">
+            <a className="header__name-a" href="#home" title="Ir a Inicio">
               <img
-                class="header__name-a-img"
+                className="header__name-a-img"
                 src={MySelfIcon}
                 alt="Icono de la página"
               />
             </a>
           </div>
           <nav>
-            <ul class="header__menu">
+            <ul className="header__menu">
               <li>
                 <a className="menu-item" href="#aboutMe" title="Ir a Sobre mí">
                   Sobre mí
