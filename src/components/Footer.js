@@ -43,11 +43,12 @@ const Footer = () => {
             </nav>
 
             <div className="copy">
-              <h5>&copy;2020</h5>
-
-              <span className="heart">
-                <i className="fas fa-heart"></i>
-              </span>
+              <h5>
+                María Segura &copy; 2020{' '}
+                <span className="heart">
+                  <i className="fas fa-heart"></i>
+                </span>
+              </h5>
             </div>
           </div>
         </section>

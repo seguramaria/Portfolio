@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: center;
     padding: 0 15px;
-    font-family: $font-main;
 
     padding: 0;
     height: 100%;
@@ -39,6 +38,7 @@
   }
   .menu-item {
     font-size: 15px;
+    font-family: $font-lato;
   }
   .header__name-a-img {
     margin: auto;

@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="form" id="contact">
       <div className="form__wrapper">
         <Fade top>
-          <h2 className="h2">CONTACTO</h2>
+          <h2 className="h2">Contacto</h2>
         </Fade>
         <section>
           <Fade top>

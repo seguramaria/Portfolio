@@ -56,6 +56,7 @@
   line-height: 1.875rem;
   text-transform: uppercase;
   margin-bottom: 45px;
+  font-family: $font-lato;
   li {
     transition: color font-size ease 0.8s;
     &:hover {
@@ -67,7 +68,7 @@
 
 .copy {
   font-size: 0.875rem;
-  text-transform: lowercase;
+
   line-height: 1.875rem;
   width: 100%;
   h5 {

@@ -29,7 +29,7 @@
     line-height: 0.8;
     &__h1 {
       font-size: 2rem;
-
+      font-family: $font-MonsterratAlternates;
       line-height: 3.4375rem;
       text-shadow: 0 20px 25px rgba(0, 0, 0, 0.3);
     }
@@ -39,6 +39,9 @@
       &-icon {
         width: 100%;
       }
+    }
+    &__p {
+      font-family: $font-Oxygen;
     }
   }
 }
