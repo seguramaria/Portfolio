@@ -1,6 +1,6 @@
-@import './Variables.scss';
-@import './Mixins.scss';
-@import './Reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
+@import '../core/Reset.scss';
 @import './App.scss';
 
 .header {
@@ -114,7 +114,6 @@
   font-size: 16px;
   letter-spacing: normal;
   color: white;
-
   transition: 0.8s color;
 }
 

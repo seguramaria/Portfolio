@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../stylesheets/ProjectModal.scss';
+import '../stylesheets/layout/ProjectModal.scss';
 import Flip from 'react-reveal/Flip';
 const ProjectModal = (props) => {
   return (

@@ -1,13 +1,13 @@
-@import './Variables.scss';
-@import './Mixins.scss';
-@import './Reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
+@import '../core/Reset.scss';
 @import './App.scss';
 
-.article-1 {
+.article-aboutme {
   background-color: $light-color;
 }
 
-.tip {
+.aboutme {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +69,7 @@
   box-shadow: none;
   transition: background-color border box-shadow ease 0.8s;
   &:hover {
-    background-color: $dark-blue;
+    background-color: $pink;
     border: 4px solid $secondary-color;
     box-shadow: 0 2px 4px 0 $shadows;
   }
@@ -86,7 +86,7 @@
 }
 
 @include tablet {
-  .tip {
+  .aboutme {
     padding: 30px 39px 60px;
     min-height: 330px;
     &__wrapper {
@@ -108,7 +108,7 @@
 }
 
 @include desktop {
-  .tip {
+  .aboutme {
     padding: 60px 275px;
     min-height: 360px;
     &__wrapper {

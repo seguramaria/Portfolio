@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/App.scss';
+import '../stylesheets/layout/App.scss';
 
 import { Link } from 'react-router-dom';
 

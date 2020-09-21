@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Header.scss';
+import '../stylesheets/layout/Header.scss';
 import MySelfIcon from '../images/3.png';
 class Header extends React.Component {
   render() {

@@ -1,17 +1,12 @@
 import React from 'react';
-import '../stylesheets/Contact.scss';
-
-// import Fade from 'react-reveal/Fade';
+import '../stylesheets/layout/Contact.scss';
 
 const Contact = () => {
   return (
     <section className="form" id="contact">
       <div className="form__wrapper">
-        {/* <Fade top> */}
         <h2 className="h2">Contacto</h2>
-        {/* </Fade> */}
         <section>
-          {/* <Fade top> */}
           <form
             action="https://formspree.io/mwkrblze"
             method="post"
@@ -63,12 +58,10 @@ const Contact = () => {
               name="comments"
               required
             ></textarea>
-
             <input className="button" type="submit" value="ENVIAR" />
           </form>
-          {/* </Fade> */}
+
           <section className="socialmedia">
-            {/* <Fade bottom> */}
             <ul className="socialmedia__list">
               <li className="socialmedia__list-li">
                 <a
@@ -111,7 +104,6 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            {/* </Fade> */}
           </section>
         </section>
       </div>

@@ -1,11 +1,12 @@
-@import './Variables.scss';
-@import './Mixins.scss';
-@import './Reset.scss';
+@import '../core/Variables.scss';
+@import '../core/Mixins.scss';
+@import '../core/Reset.scss';
+@import './App.scss';
 
 .hero {
   height: 100vh;
   background-color: #facfad;
-  background-image: url('../images/fondos/3.png');
+  background-image: url('../../images/fondos/3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

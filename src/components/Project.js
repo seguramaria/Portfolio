@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Projects.scss';
+import '../stylesheets/layout/Projects.scss';
 import { Link } from 'react-router-dom';
 import Flip from 'react-reveal/Flip';
 class Project extends React.Component {

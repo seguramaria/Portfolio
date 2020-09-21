@@ -1,10 +1,9 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
-import '../stylesheets/Home.scss';
+import '../stylesheets/layout/Home.scss';
 import MySelfIcon from '../images/Iconos/6.png';
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
+
 const Home = () => {
   return (
     <section className="page__header" id="home">

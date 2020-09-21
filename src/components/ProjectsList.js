@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import '../stylesheets/Projects.scss';
+import '../stylesheets/layout/Projects.scss';
 import Project from './Project';
 
 const ProjectsList = (props) => {

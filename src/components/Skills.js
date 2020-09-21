@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Skills.scss';
+import '../stylesheets/layout/Skills.scss';
 import MySelfIcon from '../images/Iconos/2.png';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
