@@ -3,6 +3,8 @@
 Web desarrollada con React, Sass y HTML para mostrar proyectos realizados.
 
 Consta de los siguientes apartados:
+
+```
 .
 └── src/
 ├── components/
@@ -35,5 +37,6 @@ Consta de los siguientes apartados:
 ├── Project.scss
 ├── ProjectModal.scss
 └── Skills.scss
+```
 
 Enlace a la página: https://seguramaria.netlify.app/
